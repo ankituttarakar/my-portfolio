@@ -4,6 +4,14 @@ import { Github, ExternalLink, Shield, Activity, Brain, LineChart } from 'lucide
 
 const projects = [
   {
+    title: "AI Infrastructure Monitor",
+    description: "AWS-native serverless monitoring system using Kinesis Video Streams and AI-powered threat detection via Bedrock.",
+    tech: ["AWS CDK", "Lambda", "Bedrock AI", "Kinesis", "S3"],
+    icon: <Server className="text-blue-500" />,
+    github: "https://github.com/ankituttarakar/ai-infrastructure-monitoring-system",
+    image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc51?q=80&w=800&auto=format&fit=crop"
+  },
+  {
     title: "Telemetry",
     description: "High-performance real-time data monitoring and visualization system for tracking system metrics and performance.",
     tech: ["React", "Node.js", "WebSockets", "D3.js"],
